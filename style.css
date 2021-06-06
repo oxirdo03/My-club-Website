@@ -1,0 +1,116 @@
+html, body{
+  padding:  0;
+  margin: 0;
+  background-color: rgb(216, 79, 79);
+  height: 1800px;
+  width: 100%;
+}
+.logo{
+    width: 6rem;
+    height: auto;
+    
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(46, 40, 40);
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    padding: 0.29rem 1.9rem;
+    color: white;
+    text-decoration: none;
+}
+button{
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background-color: aqua;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+}
+nav{
+    margin: auto;
+}
+.title{
+    text-align: center;
+    background-color: brown;
+    margin-top: 100px;
+    
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.title h1{
+    color: orange;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-club{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.about-club h2{
+    color: yellow;
+}
+.about-club p{
+    font-size: 1.2rem;
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 200px;
+}
+.photos img{
+    width: 30%;
+    height: auto;
+    
+}
+.members{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
+.members .member img{
+    width: 200px;
+    height: auto;
+    
+    
+}
+.members .member{
+    width: 20%;
+    height: auto;
+}
+
+h1{
+    margin-left: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .members .member img{
+        width: 100px;
+        height: auto;
+        
+        
+    }
+    .photos{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .photos img{
+        margin-top: 10px;
+        width: 80%;
+    }
+  }
